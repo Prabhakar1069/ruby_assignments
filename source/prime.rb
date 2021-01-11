@@ -4,11 +4,11 @@ class Prime
   end	
   def is_prime	
     return false if @num==0 || @num==1	
-	for i in (2..@num-1)
-		return false if @num%i==0
+    for i in (2..@num-1)
+      return false if @num%i==0
 			
-	end
-	return true		
+    end
+    return true		
   end	
 end	
 
