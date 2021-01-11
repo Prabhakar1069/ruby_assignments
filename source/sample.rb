@@ -3,3 +3,5 @@ class Sample
     "hello"
   end
 end
+
+puts Sample.hello_msg

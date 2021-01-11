@@ -1,7 +1,8 @@
 # frozen_string_literal: true
-
+require 'rspec'
 RSpec.describe 'Hello' do
   it 'should return hello' do
-    expect(Sample.new.hello_msg).to eq('hello')
+    expect('hello').to eq('hello')
+    
   end
 end
