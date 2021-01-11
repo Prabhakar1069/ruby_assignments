@@ -1,17 +1,18 @@
 class Prime
-	def initialize(num)
-		@num = num
-	end	
-	def is_prime
-		count = 0
-		# z = (1..@num).to_a
-		for i in (2..@num-1)
-			return false if @num%i==0
+  def initialize(num)
+	@num = num
+  end	
+  def is_prime	
+    return false if @num==0 || @num==1	
+	for i in (2..@num-1)
+		return false if @num%i==0
 			
-		end
-		return true		
-	end	
+	end
+	return true		
+  end	
 end	
 
-num = Prime.new(10)
+
+
+
 
