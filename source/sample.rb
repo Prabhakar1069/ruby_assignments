@@ -4,4 +4,3 @@ class Sample
   end
 end
 
-puts Sample.hello_msg

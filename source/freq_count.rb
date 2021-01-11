@@ -12,8 +12,6 @@ class FreqCount
 	end	
 end
 
-m = FreqCount.new("a1ab2b").frequency
+# m = FreqCount.new("a1ab2b").frequency
 
-for i in m
-	puts i
-end
+

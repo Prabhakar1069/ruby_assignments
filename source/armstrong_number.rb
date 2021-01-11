@@ -26,5 +26,3 @@ class ArmstrongNumber
 		return false
 	end	
 end	
-
-puts ArmstrongNumber.new(13).is_armstrong

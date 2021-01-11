@@ -14,4 +14,4 @@ class Prime
 end	
 
 num = Prime.new(10)
-puts num.is_prime
+
